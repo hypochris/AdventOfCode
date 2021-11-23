@@ -7,10 +7,10 @@ var pos = 0;
 foreach (var c in chars)
 {
     if (c == '(')
-        pos += 1;
+        pos++;
     else
-        pos -= 1;
-    
+        pos--;
+
     if(pos == -1)
         break;
     index++;

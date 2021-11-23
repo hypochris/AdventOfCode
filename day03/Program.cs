@@ -12,7 +12,7 @@ foreach (var gift in data)
     var s2 = w*h;
     var s3 = h*l;
 
-    var dimensions = (2*l*w + 2*w*h + 2*h*l);
+    var dimensions = ((2 *l*w) + (2 *w*h) + (2 *h*l));
 
     var smallest = new List<int>(){ s1, s2, s3}.OrderBy(x => x).ToList()[0];
 
