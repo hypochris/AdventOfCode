@@ -68,7 +68,7 @@ static int[,] Off(int[,] matrix, int[] from, int[] to)
         for (int j = from[1]; j < to[1] + 1; j++)
         {
             matrix[i,j]--;
-            
+
             if(matrix[i,j] < 0)
                 matrix[i,j] = 0;
         }
