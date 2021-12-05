@@ -15,8 +15,3 @@ foreach (var line in data)
 
 System.Console.WriteLine($"{escaped} - {unescaped}");
 System.Console.WriteLine(escaped - unescaped);
-
-static string ToLiteral(string valueTextForCompiler)
-{
-    return Microsoft.CodeAnalysis.CSharp.SymbolDisplay.FormatLiteral(valueTextForCompiler, false);
-}

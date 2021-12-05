@@ -19,6 +19,6 @@ foreach (var line in data)
         case "down":
         depth+=num;
         break;
-    }   
+    }
 }
 System.Console.WriteLine(depth*horiz);
