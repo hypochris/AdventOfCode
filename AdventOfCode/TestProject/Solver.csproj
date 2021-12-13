@@ -11,6 +11,7 @@
     <None Remove="Data\202101.txt" />
     <None Remove="Data\202105.txt" />
     <None Remove="Data\202106.txt" />
+    <None Remove="Data\202107.txt" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,6 +25,9 @@
 
   <ItemGroup>
     <EmbeddedResource Include="Data\202101.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data\202107.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
